@@ -8,6 +8,12 @@ public class CodeCoverage {
 		start();
 	}
 public static String start(){
+	int i=1;
+	if (i <= 2)
+	{
+		System.out.println(i);
+		i++;
+	}
 	System.out.println("start");
 	return "start";
 }

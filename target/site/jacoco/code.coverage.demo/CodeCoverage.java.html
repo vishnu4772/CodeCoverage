@@ -8,12 +8,18 @@
 <span class="nc" id="L8">		start();</span>
 <span class="nc" id="L9">	}</span>
 public static String start(){
-<span class="fc" id="L11">	System.out.println(&quot;start&quot;);</span>
-<span class="fc" id="L12">	return &quot;start&quot;;</span>
+<span class="fc" id="L11">	int i=1;</span>
+<span class="pc bpc" id="L12" title="1 of 2 branches missed.">	if (i &lt;= 2)</span>
+	{
+<span class="fc" id="L14">		System.out.println(i);</span>
+<span class="fc" id="L15">		i++;</span>
+	}
+<span class="fc" id="L17">	System.out.println(&quot;start&quot;);</span>
+<span class="fc" id="L18">	return &quot;start&quot;;</span>
 }
 public static String stop(){
-<span class="fc" id="L15">	System.out.println(&quot;stop&quot;);</span>
-<span class="fc" id="L16">	return &quot;stop&quot;;</span>
+<span class="fc" id="L21">	System.out.println(&quot;stop&quot;);</span>
+<span class="fc" id="L22">	return &quot;stop&quot;;</span>
 }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
