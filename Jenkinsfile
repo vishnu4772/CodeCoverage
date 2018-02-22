@@ -2,9 +2,8 @@ pipeline {
   agent none
   stages {
     stage('build') {
-      agent any
-      steps {
-        sh 'mvn clean install'
+       steps {
+        echo 'this is minimal pipeline'
       }
     }
     stage('test') {
